@@ -1,0 +1,42 @@
+.about{
+    margin-top: 40px;
+    border: 1px solid red;
+    border-radius: 12px;
+    background-color: rgb(164, 89, 234);
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+    cursor: pointer;
+    color: orange;
+}
+.social{
+
+    width: 700px;
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.topabout{
+    margin-left:680px;
+        color:'white';
+}
+@media only screen and (min-width: 360px) and (max-width: 1153px) {
+	.about{
+        height: 500px;
+        width:max-content;
+    }
+    
+    .social{
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    .topabout{
+     display: grid;
+     place-items: center;
+    color: orange;
+    margin-top: 10px;
+    }
+}

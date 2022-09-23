@@ -1,0 +1,54 @@
+
+.contest{
+    margin-top: 20px;
+    height: 100px;
+    margin-right: 40px;
+}
+table,
+td,
+th {
+  width: 400px;
+  font-size: 11px;
+  border: 2px solid #ddd;
+  box-shadow: 2px 2px 2px grey;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+table {
+  border-collapse: collapse;
+  margin-right: -50px;
+}
+
+
+th,
+td {
+  padding: 5px;
+  width: 100px;
+}
+.category{
+    display: flex;
+    cursor: pointer;
+    margin-left: 20px;
+}
+h2{
+  margin-left: 20px;
+}
+.category > li{
+  width: 100px;
+  padding: 10px;
+}
+.category >li:hover{
+    background-color:orange;
+}
+
+.box{
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: center;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 8px grey;
+  height: 500px;
+  overflow: scroll;
+}

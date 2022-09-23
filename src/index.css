@@ -1,8 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Estonia&family=Sofia&family=Source+Sans+Pro:wght@300&family=Vollkorn:wght@600&display=swap');
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Estonia', cursive;
+font-family: 'Sofia', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Vollkorn', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +16,47 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@media only screen and (max-width: 600px){
+
+  .sub{
+  flex-direction: column;
+  margin-bottom: 600px;
+  object-fit: fill; 
+}
+.nav{
+  display: flex;
+  height: 100px;
+  
+}
+.logo a{
+  font-size: 20px;
+}
+.navol{
+  display: flex;
+  
+}
+.navol li{
+  width: 100px;
+}
+.box{
+  width: 400px;
+}
+.details{
+  margin: auto;
+  width: 742px;
+}
+}
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+	.nav{
+    width:min-content;
+  }
+ 
+  
+}
+@media only screen and (min-width: 768px) and (max-width: 1232px) {
+  
+  .box{
+    width: 400px;
+  }
 }

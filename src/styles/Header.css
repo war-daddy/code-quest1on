@@ -1,0 +1,75 @@
+.data{
+    margin-top: 20px;
+}
+.logo{
+    color: rgb(118, 118, 232);
+    font-size: 1.8rem;
+    font-weight: 500;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+.navol{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    height: 50px;
+    padding: 15px;
+}
+li{
+    list-style-type: none;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: rgb(200, 196, 255);
+    opacity: 1;
+    box-shadow: 0px 1px 3px rgba(244, 70, 70, 0.806);
+    padding: 15px;
+}
+img{
+    border-radius: 999px;
+    object-fit:cover;
+    margin-bottom: 20px;
+}
+.google{
+
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.in{
+
+    margin-top: 4px;
+    padding: 15px;
+    
+}
+.auth{
+    width: 150px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.logout{
+    cursor: pointer;
+    margin-left: 40px;
+
+}
+.logout img{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.name{
+    margin-top: -30px;
+    margin-right: 10px;
+    margin-left: -60px;
+}
+.out{
+    margin-top: 7px;
+}

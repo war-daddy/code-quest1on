@@ -1,0 +1,43 @@
+
+.type_name{
+  
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: rgb(144, 127, 255);
+    padding: 8px;
+    margin-left: 10px;
+    width: 400px;
+    border:1px solid grey;
+    cursor: pointer;
+    box-shadow: 1px 3px 2px rgba(227, 35, 35, 0.806);
+}
+.type_name:hover + .typeol{
+display: block;
+ width: 200px;
+ border-radius: 10px;
+}
+.typeol:hover{
+    display: block;
+    width: 200px;
+    border-radius: 10px;
+}
+.typeol{
+ 
+    margin-left: 10px;
+    display: none;
+    width: 400px;
+
+    
+}
+.typeol li {
+    width: 200px;
+    border: 1px solid grey;
+    border-radius: 10px;
+  
+}
+.typeol li a{
+    color: black;
+    font-size: 1rem;
+    font-family: cursive;
+    border-radius: 10px;
+}
